@@ -11,7 +11,7 @@
 
   "content_scripts": [ {
     "js": [ "src/highlight-selected.js" ],
-    "matches": [ "https://github.com/*" ]
+    "matches": [ "https://github.com/*", "https://git.uc.edu/*" ]
   } ],
   "minimum_chrome_version": "20",
   "permissions": [
